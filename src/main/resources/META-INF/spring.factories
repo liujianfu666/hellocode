@@ -1,0 +1,5 @@
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.proxyservice.autoconfigure.ProxyServiceScannerRegistrar
+
+org.springframework.context.ApplicationContextInitializer=\
+com.proxyservice.autoconfigure.ProxyServiceScannerRegistrar
